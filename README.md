@@ -1,1 +1,1 @@
-# Parcial-2
+# Parcial-2 Santiago Palacios Becoche, Helen Orejuera Mancilla
