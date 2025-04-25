@@ -1,0 +1,266 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+body {
+
+    margin: 0;
+  
+    font-family: Arial, sans-serif;
+  
+    background-color: #ffffff;
+  
+    color: #000;
+  
+  }
+   
+  a {
+  
+    text-decoration: none;
+  
+    color: inherit;
+  
+  }
+   
+  button, .btn {
+  
+    padding: 10px 20px;
+  
+    border-radius: 30px;
+  
+    border: none;
+  
+    cursor: pointer;
+  
+    font-weight: bold;
+  
+  }
+  .navbar {
+    box-shadow: 37px -42px 10px 37px #aaa;
+   
+    width: 100%;
+   
+    background: #fff;
+    
+    height: 70px;
+    display: flex;
+    
+    align-items: center;
+    
+    z-index: 12;
+   
+  }
+  
+  .navbar-container {
+    display: flex;
+    
+    justify-content: space-between;
+    
+    align-items: center;
+   /
+  }
+  
+  .menu-items li {
+    list-style: none;
+    
+    margin-left: 1.5rem;
+    
+    margin-bottom: 0.5rem;
+    
+    font-size: 1.2rem;
+    
+  }
+  
+  .menu-items {
+    display: flex;
+    
+    order: 2;
+    
+  }
+  .menu-items a {
+    text-decoration: none;
+   
+    color: #444;
+   
+    font-weight: 500;
+    
+  }
+  
+  .section {
+  
+    padding: 40px 20px;
+  
+  }
+   
+  .container {
+  
+    max-width: 1200px;
+  
+    margin: 0 auto;
+  
+  }
+  
+   
+  .hero {
+  
+    background-image: url('images/banner-background.png');
+  
+    background-size: cover;
+  
+    background-position: center;
+  
+    height: 500px;
+  
+    display: flex;
+  
+    align-items: center;
+  
+    justify-content: center;
+  
+    text-align: center;
+  
+    color: white;
+  
+  }
+   
+  .hero .btn-red {
+  
+    background-color: #e60012;
+  
+    color: white;
+  
+    margin: 10px;
+  
+  }
+  
+   
+  .card-grid {
+  
+    display: flex;
+  
+    justify-content: space-between;
+  
+    gap: 20px;
+  
+    background-color: #4b3b90;
+  
+    padding: 40px 20px;
+  
+  }
+   
+  .card {
+  
+    background-color: #f5d779;
+  
+    padding: 20px;
+  
+    text-align: center;
+  
+    flex: 1;
+  
+    border-radius: 10px;
+  
+  }
+   
+  .card img {
+  
+    max-width: 100%;
+  
+    height: auto;
+  
+  }
+  
+   
+  .section-disneyplus {
+  
+    background-color: #003c48;
+  
+    color: white;
+  
+    text-align: center;
+  
+    padding: 40px 20px;
+  
+  }
+   
+  .section-disneyplus .card-grid {
+  
+    justify-content: center;
+  
+  }
+   
+  .section-disneyplus .card {
+  
+    background: none;
+  
+    color: white;
+  
+  }
+  
+   
+  .section-coming-soon {
+  
+    background-color: #f3f3f3;
+  
+    padding: 40px 20px;
+  
+  }
+   
+  .section-coming-soon .card {
+  
+    background: white;
+  
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  
+  }
+  
+   
+  .section-parks {
+  
+    display: flex;
+  
+    gap: 20px;
+  
+    padding: 40px 20px;
+  
+    background-color: #ffffff;
+  
+  }
+   
+  .section-parks .card {
+  
+    flex: 1;
+  
+    background: white;
+  
+    border-radius: 10px;
+  
+    overflow: hidden;
+  
+  }
+  
+   
+  .section-visa {
+  
+    background-color: #e1f8fb;
+  
+    padding: 40px 20px;
+  
+    text-align: center;
+  
+  }
+   
+  .visa-cards {
+  
+    display: flex;
+  
+    flex-wrap: wrap;
+  
+    justify-content: center;
+  
+    gap: 10px;
+  
+  }
+  
+   
