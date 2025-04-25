@@ -1,84 +1,156 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>blancanieves</title>
-    <link rel="stylesheet" href="./css/style.css">
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Disney+ Página Promocional</title>
+<link rel="stylesheet" href="./css/style.css" />
 </head>
 <body>
-    <header>
-        <nav class="navbar">
-            <div class="navbar-container">
-                <ul class="menu-items">
-                    <h1 class="logo"><img src="./images/logo.png" alt=""></h1>
-                    <li><a href="#Disney+">DISNEY+</a></li>
-                    <li><a href="#parks$travle">PARKS & TRAVEL</a></li>
-                    <li><a href="movies">MOVIES</a></li>
-                    <li><a href="#shop">SHOP</a></li>
-                    <li><a href="#MORE">MORES</a></li>
-                    <li><a href="#LOGIN">LOGIN</a></li>
-                    <input type="text">
-                </ul>
-                <i class="fa-solid fa-bars"></i>
-            </div>
-            </div>
+    <header class="header">
+        <div class="logo"><img src="./images/logo.png" alt=""></div>
+        <nav class="nav">
+          <a href="#">Disney+</a>
+          <a href="#">Parks & Travel</a>
+          <a href="#">Movies</a>
+          <a href="#">Shop</a>
+          <a href="#">More</a>
         </nav>
-    </header>
-    <section class="hero">
-        <div>
-           
-        <h1>Disney Snow White</h1>
-        <p>¡Experimenta Snow White, solo en cines!</p>
+        <div class="search-login">
+          <button>Log In</button>
+          <input type="text" placeholder="Search">
+        </div>
+      </header>
+      
+<!-- Hero -->
+<section class="hero">
+    <div class="hero-content">
+      <img src="./images/snow-white.png" alt="Disney Snow White" class="hero-title">
+      <p class="hero-p">¡Experimenta Snow White, solo en cines!</p>
+      <div class="hero-buttons">
         <button class="btn btn-red">Get Tickets Now</button>
         <button class="btn">Learn More</button>
+      </div>
+    </div>
+  </section>
+  
+  
+  <!-- Tarjetas promocionales -->
+<section class="card-grid">
+    <div class="card">
+    <img src="./images/shop-image-1.png" alt="Performance" />
+    <h3>Un Show Especial</h3>
+    <p>Rachel Zegler canta “Wishing on a Star”</p>
+    <button class="btn">WATCH NOW</button>
+    </div>
+    <div class="card">
+    <img src="./images/shop-image-2.png" alt="Fashion" />
+    <h3>Moda de Cuento</h3>
+    <p>El arte de los trajes en la nueva película</p>
+    <button class="btn">WATCH NOW</button>
+    </div>
+    <div class="card">
+    <img src="./images/shop-image-3.png" alt="Doll" />
+    <h3>Tienda Disney</h3>
+    <p>Muñeca de edición limitada</p>
+    <button class="btn">SHOP NOW</button>
+    </div>
+    <div class="card">
+    <img src="./images/shop-image-4.png" alt="Music" />
+    <h3>Conversación Musical</h3>
+    <p>Rachel Zegler con Pasek y Paul</p>
+    <button class="btn">WATCH NOW</button>
+    </div>
+    </section>
+     
+ <!-- Sección Disney+ -->
+ <section class="section-disneyplus">
+    <h2>Explora más en Disney+</h2>
+    <div class="card-grid">
+    <div class="card">
+    <img src="./images/disney-plus-1.png" alt="Moana 2" />
+    <p>Disponible solo en Disney+</p>
+    </div>
+    <div class="card">
+    <img src="./images/disney-plus-2.png" alt="Daredevil" />
+    <p>Ahora en streaming</p>
+    </div>
+    <div class="card">
+    <img src="./images/disney-plus-3.png" alt="Next on Disney+" />
+    <p>Lo nuevo este mes</p>
+    </div>
+    </div>
+    </section>
+     
+ <!-- Coming Soon -->
+ <section class="section-coming-soon">
+    <h2>Próximamente en Disney+</h2>
+    <div class="card-grid">
+    <div class="card">
+    <img src="./images/movies-1.jpeg" alt="Alexander" />
+    <p>Estreno: 28 de marzo</p>
+    </div>
+    <div class="card">
+    <img src="./images/movies-2.jpeg" alt="Andor" />
+    <p>Temporada 2 - Abril 2025</p>
+    </div>
+    <div class="card">
+    <img src="./images/movies-3.jpeg" alt="Ironheart" />
+    <p>Estreno: 24 de junio</p>
+    </div>
+    <div class="card">
+    <img src="./images/movies-4.jpeg" alt="Percy Jackson" />
+    <p>Próximamente</p>
+    </div>
+    <div class="card">
+    <img src="./images/movies-5.jpeg" alt="The Doonies" />
+    <p>Próximamente</p>
+    </div>
+    </div>
+    </section>
+<!-- Disneyland -->
+<section class="section-parks">
+    <div class="card">
+    <img src="./images/disney-parks-1.png" alt="Disneyland Hotel" />
+    <p>Ahorra 20% del 23 marzo al 15 mayo</p>
+    </div>
+    <div class="card">
+    <img src="./images/disney-parks-2.png" alt="Disneyland Family" />
+    <p>Reserva anticipada del 16 mayo al 26 sept</p>
+    </div>
+    </section>
+     
+      <!-- Visa Disney -->
+      <section class="section-visa">
+        <div class="visa-cards">
+          <img src="./images/more-background.jpeg" alt="Disney Visa Cards">
+          <div class="visa-text">
+            <h2>GET MORE DISNEY EVERY DAY</h2>
+            <h3>Special Offer</h3>
+            <p>Earn a <strong>$400</strong> statement credit.<br>
+            New Disney® Premier Visa® Cardmembers only.</p>
+            <h3>Special Vacation Financing</h3>
+            <p>Enjoy 0% promotional APR for 6 months on select Disney vacation packages.<br>
+            Terms apply.</p>
+            <button class="btn-red">LEARN MORE</button>
+          </div>
         </div>
-        </section>
-         
-        <section class="card-grid">
-            <div class="card">
-            <img src="./images/shop-image-1.png" alt="Performance" />
-            <h3>Un Show Especial</h3>
-            <p>Rachel Zegler canta “Wishing on a Star”</p>
-            <button class="btn">WATCH NOW</button>
-            </div>
-            <div class="card">
-            <img src="./images/shop-image-2.png" alt="Fashion" />
-            <h3>Moda de Cuento</h3>
-            <p>El arte de los trajes en la nueva película</p>
-            <button class="btn">WATCH NOW</button>
-            </div>
-            <div class="card">
-            <img src="./images/shop-image-3.png" alt="Doll" />
-            <h3>Tienda Disney</h3>
-            <p>Muñeca de edición limitada</p>
-            <button class="btn">SHOP NOW</button>
-            </div>
-            <div class="card">
-            <img src="./images/shop-image-4.png" alt="Music" />
-            <h3>Conversación Musical</h3>
-            <p>Rachel Zegler con Pasek y Paul</p>
-            <button class="btn">WATCH NOW</button>
-            </div>
-            </section>
-            <section class="section-disneyplus">
-                <h2>Explora más en Disney+</h2>
-                <div class="card-grid">
-                <div class="card">
-                <img src="./images/disney-plus-1.png" alt="Moana 2" />
-                <p>Disponible solo en Disney+</p>
-                </div>
-                <div class="card">
-                <img src="./images/disney-plus-2.png" alt="Daredevil" />
-                <p>Ahora en streaming</p>
-                </div>
-                <div class="card">
-                <img src="./images/disney-plus-3.png" alt="Next on Disney+" />
-                <p>Lo nuevo este mes</p>
-                </div>
-                </div>
-                </section>
-    <main></main>
-    <footer></footer>
-</body>
-</html>
+    </section>
+    <footer class="footer">
+      <div class="footer-logo">
+        <img src="./images/logo.png" alt="Disney Logo">
+      </div>
+      <div class="footer-links">
+        <a href="#">Política de Privacidad</a>
+        <a href="#">Términos de uso</a>
+        <a href="#">Oportunidades laborales</a>
+        <a href="#">Anuncios basados en intereses</a>
+      </div>
+      <div class="footer-copy">
+        <p>© Disney 2025</p>
+      </div>
+    </footer>
+    
+  </body>
+  </html>                
+    
